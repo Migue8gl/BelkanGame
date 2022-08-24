@@ -7,4 +7,9 @@
   - Lv 1 -> se requiere un plan óptimo en número de acciones. Para este nivel se utiliza el algoritmo de búsqueda en anchura.
   - Lv 2 -> se requiere un plan óptimo con respecto a la batería gastada. Para ello hay que tener en cuenta el costo de cada casilla y distintos objetos que recucen el mismo. Se utiliza un algoritmo de costo uniforme.
   - Lv 3 -> igual que el nivel 2, pero con el aliciente de encontrar tres objetivos en vez de uno. Se sigue utilizando costo uniforme.
-  - Lv 4 -> encontrar máximo número de objetivos posibles en un mapa sin explorar (no tenemos información de las casillas hasta que las exploremos). 
+  - Lv 4 -> encontrar máximo número de objetivos posibles en un mapa sin explorar (no tenemos información de las casillas hasta que las exploremos).
+
+- Para ejecutarlo:
+  - ./install.sh para instalar paquetes necesarios
+  - make para compilar
+  - ./Belkan para ejecutar el programa
