@@ -1,15 +1,15 @@
 # BelkanGame
 ## Miguel García López
-### Práctica - Inteligencia Artificial
+### Practice - Artificial Intelligence
 
-- Descripción: Pequeño juego que implementa varios algoritmos básicos de Pathfinding, tales como Búsqueda en profundidad, Búsqueda en anchura etc. Dispone de varios niveles:
-  - Lv 0 -> nivel demo, sin dificultad alguna con algoritmo de pathfinding básico de búsqueda en profundidad sin consideración alguna sobre objetos, obstáculos o demás consideraciones.
-  - Lv 1 -> se requiere un plan óptimo en número de acciones. Para este nivel se utiliza el algoritmo de búsqueda en anchura.
-  - Lv 2 -> se requiere un plan óptimo con respecto a la batería gastada. Para ello hay que tener en cuenta el costo de cada casilla y distintos objetos que recucen el mismo. Se utiliza un algoritmo de costo uniforme.
-  - Lv 3 -> igual que el nivel 2, pero con el aliciente de encontrar tres objetivos en vez de uno. Se sigue utilizando costo uniforme.
-  - Lv 4 -> encontrar máximo número de objetivos posibles en un mapa sin explorar (no tenemos información de las casillas hasta que las exploremos).
+- Description: Small game that implements several basic Pathfinding algorithms, such as Depth Search, Breadth Search etc. It has several levels:
+  - Lv 0 -> demo level, without any difficulty with basic depth search pathfinding algorithm without any consideration of objects, obstacles or other considerations.
+  - Lv 1 -> an optimal plan in number of actions is required. For this level, the breadth search algorithm is used.
+  - Lv 2 -> an optimal plan is required regarding the spent battery. To do this, you have to take into account the cost of each square and different objects that recover it. A uniform cost algorithm is used.
+  - Lv 3 -> same as level 2, but with the added bonus of finding three targets instead of one. Uniform cost is still used.
+  - Lv 4 -> find the maximum number of targets possible in an unexplored map (we don't have information about the squares until we explore them).
 
-- Para ejecutarlo:
-  - ./install.sh para instalar paquetes necesarios
-  - make para compilar
-  - ./Belkan para ejecutar el programa
+- To run it:
+  - ./install.sh to install necessary packages
+  - make to compile
+  - ./Belkan to run the program
